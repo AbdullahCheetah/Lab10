@@ -6,11 +6,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/AbdullahCheetah/Lab10'
-            }
-        }
 
         stage('Install Dependencies') {
             steps {
